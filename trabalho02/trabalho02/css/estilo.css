@@ -1,0 +1,16 @@
+/* Estilos simples para deixar as tabelas parecidas com as imagens */
+body { background-color: white; font-family: Arial, sans-serif; }
+h2 { font-weight: normal; }
+.tabela-congresso, .tabela-cursos { font-size: 13px; }
+.table th, .table td { padding: 12px 8px; }
+.table th { vertical-align: middle; }
+.table th small { font-size: 10px; display: inline-block; margin-top: 4px; }
+.cabecalho-laranja { background-color: #ff9200 !important; }
+.cabecalho-verde { background-color: #04c400 !important; }
+.cabecalho-azul { background-color: #009bd0 !important; }
+.coluna-verde { background-color: #9bfa92 !important; }
+.coluna-azul { background-color: #00d5ed !important; }
+.coluna-turquesa { background-color: #04f0a2 !important; }
+.coluna-amarela { background-color: #ffdc79 !important; }
+.coluna-curso { background-color: #afe3fb !important; }
+@media (max-width: 768px) { .tabela-congresso { min-width: 760px; } }
